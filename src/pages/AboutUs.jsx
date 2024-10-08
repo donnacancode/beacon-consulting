@@ -18,13 +18,13 @@ const employees = [
     image: "/KEVIN_HEADSHOT.webp",
     linkedin: "https://www.linkedin.com/in/kevin-goleskie-89599b32/",
   },
-  {
-    name: "Reena Miller",
-    role: "Consultant",
-    bio: "Rina's blurb",
-    image: "/images/rina",
-    linkedin: "https://www.linkedin.com/in/reena-miller-cams-cfe-4856b217/",
-  },
+  // {
+  //   name: "Reena Miller",
+  //   role: "Consultant",
+  //   bio: "Rina's blurb",
+  //   image: "/images/rina",
+  //   linkedin: "https://www.linkedin.com/in/reena-miller-cams-cfe-4856b217/",
+  // },
 ];
 
 const AboutUs = () => {
