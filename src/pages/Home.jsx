@@ -13,12 +13,12 @@ function Home() {
           {/* Ensure this path is correct */}
           Your browser does not support the video tag.
         </video>
-        <div className="hero-overlay">
-          <h1>Beacon Consulting and Advisory</h1>
-          <h2 className="italicized-heading">
-            Banking and Fintech Risk Management Specialists
-          </h2>
-        </div>
+      </div>
+      <div className="hero-overlay">
+        <h1>Beacon Consulting and Advisory</h1>
+        <h2 className="italicized-heading">
+          Banking and Fintech Risk Management Specialists
+        </h2>
       </div>
 
       <div className="home-content-wrapper">

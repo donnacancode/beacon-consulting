@@ -63,14 +63,15 @@ html {
 
 /* Overlay Content for the Hero Section */
 .hero-overlay {
-  position: relative;
-  z-index: 1; /* Ensure overlay content is above the video */
+  position: absolute;
+  z-index: 1;
   color: white;
-  text-align: left; /* Left-align text within the overlay */
+  text-align: left;
   padding: 20px;
-  font-family: "Montserrat", sans-serif; /* Use Montserrat for hero text */
-  margin: 0% 0% 8% 35%; /*Automatically moves the content to the right */
-  max-width: 1200px; /* Optional: Restrict the max width of the text block */
+  font-family: "Montserrat", sans-serif;
+  margin: 0% 0% 8% 35%;
+  width: 100%;
+  max-width: 1200px;
   display: block;
 }
 
@@ -648,7 +649,6 @@ textarea {
   }
 
   .video-hero {
-    flex-direction: column;
     height: auto;
   }
 
@@ -658,12 +658,12 @@ textarea {
   }
 
   .hero-overlay {
-    position: relative; /* Position relative for natural flow */
-    margin: 0; /* Reset margin to avoid unwanted spacing */
-    width: 100%; /* Take full width on small screens */
-    text-align: center; /* Center align text on small screens */
-    order: 1; /* Make sure the overlay appears after the video */
-    padding: 10px; /* Reduce padding for smaller screens */
+    position: relative;
+    top: 0; /* Remove centering */
+    left: 0; /* Remove centering */
+    transform: none; /* Remove the centering transform */
+    margin: 20px 0 0 0; /* Add some margin on top of the overlay */
+    padding: 10px; /* Reduce padding */
   }
 
   .page-section h2 {
