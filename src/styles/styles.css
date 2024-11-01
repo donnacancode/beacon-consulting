@@ -666,6 +666,10 @@ textarea {
     padding: 10px; /* Reduce padding */
   }
 
+  .hero-overlay h1 {
+    font-size: 2.5em; /* Adjust heading size */
+  }
+
   .page-section h2 {
     font-size: 2em; /* Smaller heading size */
   }
