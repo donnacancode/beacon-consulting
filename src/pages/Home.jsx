@@ -13,14 +13,13 @@ function Home() {
           {/* Ensure this path is correct */}
           Your browser does not support the video tag.
         </video>
+        <div className="hero-overlay">
+          <h1>Beacon Consulting and Advisory</h1>
+          <h2 className="italicized-heading">
+            Banking and Fintech Risk Management Specialists
+          </h2>
+        </div>
       </div>
-      <div className="hero-overlay">
-        <h1>Beacon Consulting and Advisory</h1>
-        <h2 className="italicized-heading">
-          Banking and Fintech Risk Management Specialists
-        </h2>
-      </div>
-
       <div className="home-content-wrapper">
         <div className="home-content">
           <h2>We Know Risk.</h2>
@@ -44,6 +43,7 @@ function Home() {
             insights, and commitment to helping our clients thrive in today's
             dynamic financial ecosystem.
           </p>
+
           <Link to="/services" className="hero-button">
             Explore our Services
           </Link>
